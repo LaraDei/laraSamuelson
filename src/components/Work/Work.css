@@ -1,0 +1,98 @@
+.work{
+     display: flex;
+     flex-direction: column;
+     background-color: whitesmoke;
+}
+
+.work img {
+    width: 92%;
+    margin: auto;
+    border: 1vw solid #72bda3;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+.work p{
+    font-size: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.work .links{
+    font-size: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: #94e8b4;
+    padding: 2px;
+    align-items: center;
+    width: 100%;
+}
+
+.work a{
+    text-decoration: none;
+    color: black;
+}
+
+.work .skills{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    font-size: 70%;
+    width: 100%;
+    list-style-position: outside;
+}
+
+#harvest{
+    font-family: 'Gochi Hand', cursive;
+}
+#keepbox{
+    font-family: 'Lobster', cursive;
+}
+#reps{
+    font-family: 'Kameron', serif;
+}
+
+.work hr{
+    width: 80%;
+    background-color: black;
+    border: none;
+    height: 2px;
+    margin-bottom: 10vw;
+}
+.work a:hover{
+    color: rgb(80, 78, 78);
+}
+
+@media(min-width: 700px)  {
+    .work{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: auto;
+   }
+   .work .item{
+       width: 35%;
+       margin: auto;
+       margin-top: 0;
+   }
+   .work hr{
+       display: none;
+   }
+   .work .links{
+       font-size: 60%;
+       width: 93%;
+       height: 60px;
+   }
+   .work p{
+    font-size: 60%;
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+    .work .skills{
+    font-size: 50%;
+
+    }
+
+  }

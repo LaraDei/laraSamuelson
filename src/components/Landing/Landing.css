@@ -1,0 +1,49 @@
+.LandingPage {
+    background-size: cover; 
+    background:linear-gradient(to bottom right, whitesmoke calc(49% - 25px),  #ffcf56 calc(49.5% - 0px), #72bda3 50%);
+    position: fixed; 
+    left: 0;
+    height: 95%;
+    width: 100%;
+}
+
+.intro{
+    margin-top: 1vw;
+    width: 80vw;
+    height: 25vw;
+    color: black;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.intro h2{
+    font-size:9vw
+}
+.intro h3{
+    font-size:5vw
+}
+.intro hr{
+    width: 80%;
+    background-color: black;
+    border: none;
+    height: 2px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .intro h2{
+        font-size:5vw
+    }
+    .intro h3{
+        font-size:3vw
+    }
+    .intro hr{
+        width: 60%;
+    }
+    .intro{
+        margin-top: .5vw;
+        width: 65vw;
+
+    }
+    
+  }

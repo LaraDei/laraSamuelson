@@ -1,0 +1,77 @@
+  .nav-bar{
+    background-color: whitesmoke;
+    overflow: hidden;
+  }
+  
+  .menu a {
+    float: left;
+    display: block;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .menu :not(:first-child) {
+    float: right;
+    display: none;
+  }
+
+  .menu .icon {
+    float: right;
+    display: block;
+    margin: 3% 3% 0 0;
+  }
+
+  .menu .icon button {
+    font-size:1.5em;
+    background-color: inherit;
+    border: none;
+    color: #72bda3;
+  }
+  
+  .nav-bar a:hover {
+    border: 2px  solid #94e8b4;
+    border-radius: 10px;
+  }
+  
+    .menu.responsive {position: relative;}
+    .menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+  
+    .menu.responsive a {
+      float: none;
+      display: flex;
+      text-align: left;
+    }
+  
+    @media (min-width: 600px) {
+      .menu{
+        width: 100%;
+        display: block;
+        color: #f2f2f2;
+        padding: 10px 16px;
+      }
+      .menu a {
+        font-size: 15px;
+      }
+      .menu .icon button{
+        display: none;
+      }
+      .menu .close button{
+        display: none;
+      }
+      .menu :not(:first-child) {
+        float: right;
+        display: block;
+        padding-top: 15px;
+      }
+      
+    }
