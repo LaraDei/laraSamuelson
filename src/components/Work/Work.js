@@ -15,9 +15,9 @@ export default function Work(){
                     <img src={harvestTable} alt="lemon in blue circle"/>
 
                     <div className="links">
-                        <Link id="harvest" to="https://harvest-table.vercel.app/" target="_blank"><h4>Harvest Table</h4></Link>
+                        <a id="harvest" href="https://harvest-table.vercel.app/" rel='noreferrer' target="_blank"><h4>Harvest Table</h4></a>
                         <h4 className="slash"> | </h4>
-                        <Link to="https://github.com/LaraDei/harvest-table" target="_blank"><h4>GitHub Repo</h4></Link>
+                        <a href="https://github.com/LaraDei/harvest-table" rel='noreferrer' target="_blank"><h4>GitHub Repo</h4></a>
                     </div>
                     <div className='skills'>
                         <ul>
@@ -47,9 +47,9 @@ export default function Work(){
                 <div className="item">
                     <img src={keepBox} alt="random shapes"/>
                     <div className="links">
-                        <Link id="keepbox" to="https://keepbox.vercel.app/" target="_blank"><h4>Keepbox</h4></Link>
+                        <a id="keepbox" href="https://keepbox.vercel.app/" rel='noreferrer' target="_blank"><h4>Keepbox</h4></a>
                         <h4 className="slash"> | </h4>
-                        <Link to="https://github.com/LaraDei/keepbox" target="_blank"><h4>GitHub Repo</h4></Link>
+                        <a href="https://github.com/LaraDei/keepbox"  rel='noreferrer' target="_blank"><h4>GitHub Repo</h4></a>
                     </div>
                     <div className='skills'>
                         <ul>
@@ -79,9 +79,9 @@ export default function Work(){
                 <div className="item">
                     <   img src={flag} alt="graffiti flag"/>
                     <div className="links">
-                        <Link id="reps" to="https://laradei.github.io/representatives-app/" target="_blank"><h4>Find Your Representatives</h4></Link>
+                        <a id="reps" href="https://laradei.github.io/representatives-app/" rel='noreferrer' target="_blank"><h4>Find Your Representatives</h4></a>
                         <h4 className="slash"> | </h4>
-                        <Link to="https://github.com/LaraDei/representatives-app" target="_blank"><h4>GitHub Repo</h4></Link>
+                        <a href="https://github.com/LaraDei/representatives-app" rel='noreferrer' target="_blank"><h4>GitHub Repo</h4></a>
                     </div>
                     <div className='skills'>
                         <ul>
@@ -102,9 +102,9 @@ export default function Work(){
                 <div className="item">
                     <img src={garden} alt="palm leaves"/>
                     <div className="links">
-                        <Link id="quiz" to="https://laradei.github.io/garden-quiz-app/" target="_blank"><h4>Garden Quiz</h4></Link>
+                        <a id="quiz" href="https://laradei.github.io/garden-quiz-app/" rel='noreferrer' target="_blank"><h4>Garden Quiz</h4></a>
                         <h4 className="slash"> | </h4>
-                        <Link to="https://github.com/LaraDei/garden-quiz-app" target="_blank"><h4>GitHub Repo</h4></Link>
+                        <a href="https://github.com/LaraDei/garden-quiz-app" rel='noreferrer' target="_blank"><h4>GitHub Repo</h4></a>
                     </div>
                     <div className='skills'>
                         <ul>
@@ -117,7 +117,7 @@ export default function Work(){
                         </ul>
                     </div>
                     <p>This quiz app tests your gardening knowledge. I used responsive design and a11y best practices. 
-                        The quiz indludes a landing page, 5 multiple choice questions, and a results page.</p>
+                        The quiz includes a landing page, 5 multiple choice questions, and a results page.</p>
                     <hr></hr>
                 </div>
 

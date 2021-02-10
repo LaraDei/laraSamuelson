@@ -43,8 +43,8 @@ export default class Contact extends Component{
                         <div className="item">
                             <p>I'd love to hear from you. Please feel free to contact or follow me:</p>
                             <ul>
-                                <li><Link to="https://www.linkedin.com/in/lara-dei/" target="_blank"><FontAwesomeIcon icon={faLinkedin}/>LinkedIn</Link></li>
-                                <li><Link to="https://github.com/LaraDei" target="_blank"><FontAwesomeIcon icon={faGithub}/>GitHub</Link></li>
+                                <li><a href="https://www.linkedin.com/in/lara-dei/" rel='noreferrer' target="_blank"><FontAwesomeIcon icon={faLinkedin}/>LinkedIn</a></li>
+                                <li><a href="https://github.com/LaraDei" rel='noreferrer' target="_blank"><FontAwesomeIcon icon={faGithub}/>GitHub</a></li>
                                 <li> <FontAwesomeIcon icon={faEnvelope}/> lara.samuelson@gmail.com</li>
                             </ul>
                         </div>
