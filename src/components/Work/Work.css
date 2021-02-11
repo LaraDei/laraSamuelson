@@ -1,7 +1,7 @@
 .work{
      display: flex;
      flex-direction: column;
-     background-color: whitesmoke;
+     background-color: #edf6f9;
 }
 
 .work img {
@@ -13,7 +13,7 @@
 }
 
 .work p{
-    font-size: 90%;
+    font-size: 18px;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -29,6 +29,10 @@
     width: 100%;
 }
 
+.work ul{
+    padding-left: 10px;
+}
+
 .work a{
     text-decoration: none;
     color: black;
@@ -38,7 +42,7 @@
     display: flex;
     justify-content: space-around;
     text-align: justify;
-    font-size: 70%;
+    font-size: 18px;
     width: 100%;
     list-style-position: outside;
 }
@@ -73,26 +77,18 @@
         margin: auto;
    }
    .work .item{
-       width: 35%;
+       width: 40%;
        margin: auto;
        margin-top: 0;
+       padding-bottom: 10px;
    }
    .work hr{
        display: none;
    }
    .work .links{
-       font-size: 60%;
+       font-size: 18px;
        width: 93%;
        height: 60px;
    }
-   .work p{
-    font-size: 60%;
-    padding-left: 5px;
-    padding-right: 5px;
-    }
-    .work .skills{
-    font-size: 50%;
-
-    }
 
   }

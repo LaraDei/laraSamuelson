@@ -17,6 +17,8 @@ export default function About(){
                             I found that I truly lost myself in the planning, researching, and creating 
                             side of my field. As a software developer, I get to focus on my strongest skills.
                         </p>
+                        <p>I enjoy working in a team. I believe building a great team takes great communication, 
+                            a skill I have used in all my endeavors. </p>
                         <p>In my free time I like to work with my hands. Whether 
                             it is my home, garden, or car, I love fixing and creating.</p>
                     </div>

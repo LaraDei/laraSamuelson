@@ -1,6 +1,6 @@
 .LandingPage {
     background-size: cover; 
-    background:linear-gradient(to bottom right, whitesmoke calc(49% - 25px),  #ffcf56 calc(49.5% - 0px), #72bda3 50%);
+    background:linear-gradient(to bottom right, #edf6f9 calc(58% - 13px),  #ffcf56 calc(58.5% - 0px), #72bda3 calc(75% - 100px));
     position: fixed; 
     left: 0;
     height: 95%;
@@ -8,11 +8,11 @@
 }
 
 .intro{
-    margin-top: 1vw;
+    margin-top: 20vw;
+    margin-left: 7vw;
     width: 80vw;
     height: 25vw;
     color: black;
-    border-radius: 5%;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
     .intro h2{
         font-size:5vw
     }
@@ -41,7 +41,8 @@
         width: 60%;
     }
     .intro{
-        margin-top: .5vw;
+        margin-top: 5vw;
+        margin-left: 5vw;
         width: 65vw;
 
     }
