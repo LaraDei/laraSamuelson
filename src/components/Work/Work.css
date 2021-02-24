@@ -1,32 +1,43 @@
 .work{
      display: flex;
      flex-direction: column;
-     background-color: #edf6f9;
+     background-color: #1b3a4b;
+     margin-top: 25px;
 }
 
 .work img {
     width: 92%;
     margin: auto;
     border: 1vw solid #72bda3;
+    border-radius: 5px;
     padding-bottom: 0;
     background-color: white;
 }
-
+.work .text {
+    color: white;
+}
 .work p{
     font-size: 18px;
     padding-left: 5px;
     padding-right: 5px;
 }
+.work .pic{
+    margin: auto;
+}
 
 .work .links{
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
+    justify-content: space-around;
     margin: auto;
-    justify-content: space-evenly;
     background-color: #94e8b4;
-    padding: 2px;
+    border-radius: 5px;
     align-items: center;
-    width: 100%;
+    width: 92%;
+    padding: 3px;
+}
+.work h4{
+    margin:0;
 }
 
 .work ul{
@@ -59,7 +70,7 @@
 
 .work hr{
     width: 80%;
-    background-color: black;
+    background-color: #94e8b4;
     border: none;
     height: 2px;
     margin-bottom: 10vw;
@@ -70,25 +81,31 @@
 
 @media(min-width: 700px)  {
     .work{
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 75%;
+        width: 85%;
         margin: auto;
+        margin-top: 35px;
    }
-   .work .item{
-       width: 40%;
-       margin: auto;
-       margin-top: 0;
-       padding-bottom: 10px;
-   }
-   .work hr{
-       display: none;
-   }
-   .work .links{
-       font-size: 18px;
-       width: 93%;
-       height: 60px;
-   }
-
+    .work .item{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 40px;
+        background-color: #94e8b4;
+        border-radius: 10px;
+        padding-top: 5px;
+    }
+    .work hr{
+        display: none;
+    }
+    .work .text{
+        width: 100%;
+        flex-grow: 2;
+    }
+    .work .pic{
+        width: 50%;
+    }
+    .work .text {
+        color: black;
+    }
   }

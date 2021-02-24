@@ -25,9 +25,9 @@ export default class NavBar extends Component {
                         <img src={logo} alt='green square with L D' style={{width:"40px", height:"40px"}}/>
                         </Link>
                     </div>
+                    <Link to='/contact'>Contact</Link>
                     <Link to='/about'>About</Link>
                     <Link to='/work'>Work</Link>
-                    <Link to='/contact'>Contact</Link>
                     <div className='icon'>
                        {!document.getElementsByClassName('menu')
                         ? <button  id='menu-button' onClick={e => this.handleNav()}><FontAwesomeIcon icon={faTimes}/>{' '}</button>

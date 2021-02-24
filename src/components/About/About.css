@@ -3,9 +3,11 @@
     flex-direction: column;
 }
 .about h2 {
-    background-color: #94e8b4;
-    margin: 0 0 5vh;
-    padding: 4vh;
+    color: #72bda3;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 5px solid #72bda3;
+    
 }
 .about img{
     margin: auto;
@@ -23,6 +25,7 @@
 .about p{
     margin: auto;
     padding-bottom: 9px;
+    color: #94e8b4;
 }
 
 .about ul{
@@ -33,11 +36,12 @@
 .about li{
     list-style: none;
     margin-bottom: 7%;  
+    color: #94e8b4;
 }
 
 @media(min-width: 700px)  {
     .about{
-        width: 65%;
+        width: 75%;
         margin: auto;
         margin-top: 35px;
     }
@@ -47,22 +51,22 @@
     }
     .bio{
         display: flex;
-        flex-direction: row-reverse;
         justify-content: space-evenly;
-
+        margin-top: 25px;
     }
     .about img{
-        width: 55%;
+        background-color: #1b3a4b;
+        width: 90%;
     }
     .about .photo-self{
-        width: 100%;
-        background-color: #edf6f9;
-        top: 0;
+        background-color: #1b3a4b;
+        justify-content: center;
+        flex-grow: 1;
+        margin: auto;
     }
+
     .about .text{
         width: 100%;
-        font-size: 1.5vw;
-        padding: 35px 25px 0 5px;
         text-align: left;
     }
     .second-group{
@@ -72,7 +76,7 @@
     }
     .about h2 {
         margin: 0; 
-        font-size: 20px;
+        font-size: 25px;
     }
     .about li{
         font-size: 18px;  
