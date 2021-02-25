@@ -27,17 +27,45 @@
     border: none;
     height: 2px;
 }
+.contact-links{
+    position: absolute;
+    display: flex;
+    right: 15px;
+    bottom: 55px;
+    border-top: 2px solid #94e8b4;
+    padding-right: 50px;
+    padding-top: 5px;
+
+}
+.contact-links a{
+    color: #94e8b4;
+    margin-left: 10px;
+}
 
 
 @media only screen and (min-width: 700px) {
     .intro h2{
-        font-size:4.5vw
+        font-size:4vw
     }
     .intro h3{
-        font-size:2.5vw
+        font-size:2vw
     }
     .intro hr{
-        width: 70%;
+        width: 50%;
     }
+    .contact-links{
+        flex-direction: column;
+        position: absolute;
+        right: 35px;
+        bottom: 35px;
+        border-right: 2px solid #94e8b4;
+        padding-bottom: 50px;
+        padding-right: 10px;
+        border-top: 0;
     
+    }
+    .contact-links a{
+        color: #94e8b4;
+        margin-bottom: 10px;
+    }
   }
