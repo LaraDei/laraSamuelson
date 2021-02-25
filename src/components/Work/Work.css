@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-around;
     margin: auto;
-    background-color: #94e8b4;
+    background-color: #c9e7d4;
     border-radius: 5px;
     align-items: center;
     width: 92%;
@@ -90,7 +90,7 @@
         align-items: flex-start;
         margin: auto;
         margin-bottom: 40px;
-        background-color: #94e8b4;
+        background-color: #c9e7d4;
         border-radius: 10px;
         padding-top: 5px;
     }
