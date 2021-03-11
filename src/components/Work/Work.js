@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import harvestTable from '../../images/harvestTable.png'
 import keepBox from '../../images/keepbox.jpg'
 import flag from '../../images/flag.jpg'
@@ -11,7 +10,8 @@ import { faGithub } from'@fortawesome/free-brands-svg-icons'
 export default function Work(){
     return(
         <div id="work" className="work">
-
+                <h3>Portfolio</h3>
+                <hr className="title"></hr>
                 <div className="item">
                     <div className="pic">
                         <img src={harvestTable} alt="lemon in blue circle"/>
