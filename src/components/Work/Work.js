@@ -14,7 +14,9 @@ export default function Work(){
                 <hr className="title"></hr>
                 <div className="item">
                     <div className="pic">
-                        <img src={harvestTable} alt="lemon in blue circle"/>
+                        <a href="https://harvest-table.vercel.app/" rel='noreferrer' target="_blank">
+                            <img src={harvestTable} alt="lemon in blue circle"/>
+                        </a>
                         <div className="links">
                                 <a id="harvest" href="https://harvest-table.vercel.app/" rel='noreferrer' target="_blank"><h4>Harvest Table</h4></a>
                                 <h4 className="slash"> | </h4>
@@ -50,7 +52,9 @@ export default function Work(){
 
                 <div className="item">
                     <div className="pic">
-                        <img src={keepBox} alt="random shapes"/>
+                            <a href="https://keepbox.vercel.app/" rel='noreferrer' target="_blank">
+                                <img src={keepBox} alt="random shapes"/>
+                            </a>
                         <div className="links">
                             <a id="keepbox" href="https://keepbox.vercel.app/" rel='noreferrer' target="_blank"><h4>Keepbox</h4></a>
                             <h4 className="slash"> | </h4>
@@ -86,7 +90,9 @@ export default function Work(){
 
                 <div className="item">
                     <div className="pic">
-                        <img src={flag} alt="graffiti flag"/>
+                        <a href="https://laradei.github.io/representatives-app/" rel='noreferrer' target="_blank">
+                            <img src={flag} alt="graffiti flag"/>
+                        </a>
                         <div className="links">
                             <a id="reps" href="https://laradei.github.io/representatives-app/" rel='noreferrer' target="_blank"><h4>Find Your Reps</h4></a>
                             <h4 className="slash"> | </h4>
@@ -113,7 +119,9 @@ export default function Work(){
 
                 <div className="item">
                     <div className="pic">
-                        <img src={garden} alt="palm leaves"/>
+                        <a href="https://laradei.github.io/garden-quiz-app/" rel='noreferrer' target="_blank">
+                            <img src={garden} alt="palm leaves"/>
+                        </a>
                         <div className="links">
                             <a id="quiz" href="https://laradei.github.io/garden-quiz-app/" rel='noreferrer' target="_blank"><h4>Garden Quiz</h4></a>
                             <h4 className="slash"> | </h4>
