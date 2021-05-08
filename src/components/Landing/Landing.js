@@ -9,7 +9,9 @@ export default function Landing(){
             <div className="intro">
                 <h2 className="logo">Lara Samuelson</h2>
                 <hr></hr>
-                <h3>I'm a web developer based in Los Angeles</h3>
+                <h3>Hi, I'm a web developer based in Los Angeles. 
+                     I bring new perspectives and enjoy the experience of learning. 
+                </h3>
             </div>
             <div className="contact-links">
                 <a href="https://www.linkedin.com/in/lara-dei/" rel='noreferrer' target="_blank"><FontAwesomeIcon icon={faLinkedin}/></a>

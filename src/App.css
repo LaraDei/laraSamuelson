@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 body{
+  height: 100%;
+  display: grid;
   margin: 0;
   padding: 0;
   background-color: #1b3a4b;
@@ -9,8 +11,7 @@ body{
 .App {
   height: 100%;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: auto;
 }
 
 .app-main{

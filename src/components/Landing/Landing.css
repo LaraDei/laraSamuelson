@@ -5,24 +5,22 @@
 }
 
 .intro{
-    width: 95%;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 85%;
+    margin: auto;
     color: #72bda3;
     text-align: center;
+    margin-top: 35%;
 }
 
 .intro h2{
     font-size:9vw
 }
 .intro h3{
-    font-size:5vw
+    font-size:5vw;
+    text-align: left;
 }
 .intro hr{
-    width: 90%;
+    width: 100%;
     background-color: #94e8b4;
     border: none;
     height: 2px;
@@ -44,14 +42,15 @@
 
 
 @media only screen and (min-width: 700px) {
+    .intro{
+        width: 55%;
+        margin-top: 10%;
+    }
     .intro h2{
         font-size:4vw
     }
     .intro h3{
-        font-size:2vw
-    }
-    .intro hr{
-        width: 50%;
+        font-size:1.5vw
     }
     .contact-links{
         flex-direction: column;
