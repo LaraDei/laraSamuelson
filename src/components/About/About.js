@@ -18,12 +18,14 @@ export default function About(){
                             side of my field. As a software developer, I get to focus on my strongest skills.
                         </p>
                         <p>I enjoy working in a team. I believe building a great team takes great communication, 
-                            a skill I have used in all my endeavors. </p>
+                            a skill I have used in all my endeavors. I am a customizer and bring an understanding 
+                            of people and where they fit best. 
+                        </p>
                         <p>In my free time I like to work with my hands. Whether 
                             it is my home, garden, or car, I love fixing and creating.</p>
                     </div>
                 <div className="photo-self">
-                    <img src={Lara} alt="head shot Lara Samuelson" class="image-self" />
+                    <img src={Lara} alt="head shot Lara Samuelson" className="image-self" />
                 </div>
                 </div>
             </div>
