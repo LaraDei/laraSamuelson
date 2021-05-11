@@ -15,13 +15,12 @@ export default function Work(){
         <div id="work" className="work">
                     <h3>Portfolio</h3>
                     <hr className="title"></hr>
+            <div className="work wrapper">
             {workStore.map((item, index) => {
                 return(
                     <div className="item" key={index}>
                             <div className="pic">
-                                <a href={item.url} rel='noreferrer' target="_blank">
                                     <img src={Object.values(item.img)} alt="logo"/>
-                                </a>
                             </div>
                             <div className="text">
                                 <h2 className="work-title">{item.name}</h2>
@@ -35,19 +34,16 @@ export default function Work(){
                                             )
                                         })}
                                     </ul>
-                         
                                 </div>
                                 <div className="links">
                                         <a id={item.name} href={item.url} rel='noreferrer' target="_blank"><h4><FontAwesomeIcon icon={faGlobeAmericas}/> Visit Website</h4></a>
-
                                         <a href={item.github} rel='noreferrer' target="_blank"><h4><FontAwesomeIcon icon={faGithub}/> Repo</h4></a>
                                 </div>
                             </div>
-                            <hr></hr>
-                    </div>
-                    
+                    </div>        
                 )
             })}
+            </div>
         </div>
     )
 }

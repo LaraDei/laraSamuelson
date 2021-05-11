@@ -1,7 +1,6 @@
-import harvestTable from '../../images/harvestTable.png'
-import keepBox from '../../images/keepbox.jpg'
-import flag from '../../images/flag.jpg'
-import garden from '../../images/garden.png'
+import harvestTable from '../../images/HarvestTableLayout.png'
+import keepBox from '../../images/KeepboxLayout.png'
+import flag from '../../images/RepLayout.png'
 
 export default [
 {
