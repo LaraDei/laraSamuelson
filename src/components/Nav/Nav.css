@@ -20,6 +20,10 @@
     display: none;
   }
 
+  .nav-bar a:hover {
+    border-bottom: 3px solid #06BC9B;
+    width: 25%;
+  }
 
   .menu .icon {
     float: right;
@@ -33,11 +37,7 @@
     border: none;
     color: #72bda3;
   }
-  
-  .nav-bar a:hover {
-    text-shadow: 2px 2px 8px #94e8b4;
-  }
-  
+
     .menu.responsive {position: relative;}
     .menu.responsive .icon {
       position: absolute;
@@ -45,7 +45,6 @@
       top: 0;
     }
     
-  
     .menu.responsive a {
       float: none;
       display: flex;
@@ -61,17 +60,22 @@
       }
       .menu a {
         font-size: 15px;
+        margin-right: 25px;
       }
-      .menu .icon button{
+      #menu-button{
         display: none;
       }
-      .menu .close button{
-        display: none;
-      }
+
       .menu :not(:first-child) {
         float: right;
         display: block;
         padding-top: 15px;
+      }
+      .nav-bar a.active {
+        border-bottom: 3px solid #06BC9B;
+      }
+      .nav-bar a:hover {
+        width: auto;
       }
       
     }
