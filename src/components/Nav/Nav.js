@@ -16,13 +16,7 @@ export default class NavBar extends Component {
       }
     }
 
-    handleActive(){
-
-    }
-
     render() {
-        // let isActive = this.context.router.isActive(this.props.to, true);
-        // let className = isActive ? "active" : "";
         return(
             <div className="nav-bar">
                 <div id='menu' className='menu'>
