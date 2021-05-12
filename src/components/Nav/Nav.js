@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 import logo from '../../images/apple-touch-icon.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from'@fortawesome/free-solid-svg-icons'
@@ -21,13 +21,13 @@ export default class NavBar extends Component {
             <div className="nav-bar">
                 <div id='menu' className='menu'>
                     <div className="logo">
-                        <Link to='/'>
+                        <Link  to='/'>
                         <img src={logo} alt='green square with L D' style={{width:"40px", height:"40px"}}/>
                         </Link>
                     </div>
-                    <Link to='/contact'>Contact</Link>
-                    <Link to='/about'>About</Link>
-                    <Link to='/work'>Work</Link>
+                    <NavLink activeClassName="active" to='/contact'>Contact</NavLink>
+                    <NavLink activeClassName="active" to='/about'>About</NavLink>
+                    <NavLink activeClassName="active" to='/work'>Work</NavLink>
                     <div className='icon'>
                        {!document.getElementsByClassName('menu')
                         ? <button  id='menu-button' onClick={e => this.handleNav()}><FontAwesomeIcon icon={faTimes}/>{' '}</button>
