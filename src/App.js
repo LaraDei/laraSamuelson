@@ -40,6 +40,7 @@ export default class App extends Component {
       <main className="app-main">
           {this.renderMainRoutes()}
       </main>
+      <footer id="footer"></footer>
       </div>
     );
   }
