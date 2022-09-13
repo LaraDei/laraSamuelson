@@ -6,7 +6,7 @@ import cvp from '../../images/CVP.png'
 export default [
     {
         name: "Conviction Vacation Project",
-        url: "https://convictionvacation.org/",
+        url: "https://clearviction.org/",
         github: "https://github.com/openseattle/cvp",
         img: {cvp},
         skills: ["JS", " JSX", "React", "HTML", "CSS"],
